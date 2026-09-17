@@ -1,0 +1,4 @@
+-r requirements.txt
+torch-geometric==2.7.0
+
+# The official ALIGNN CLI is installed separately from its upstream project.
