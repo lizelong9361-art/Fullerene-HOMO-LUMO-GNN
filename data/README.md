@@ -16,3 +16,7 @@ Example: metadata row `AtomCount=60, ID=1` maps to
 The source geometry collection contained one extra file at C54/ID 43 with no
 matching metadata row. That orphan file is deliberately excluded, leaving a
 one-to-one set of 7,035 metadata rows and 7,035 geometry files.
+
+The dataset and matched geometry files are licensed under
+[CC BY 4.0](LICENSE.md). The predefined CSV split manifests in `../splits/`
+have the same license. Original project code has a separate MIT license.

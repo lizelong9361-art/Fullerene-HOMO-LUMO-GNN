@@ -12,6 +12,7 @@ this package.
 - `data/dataset.csv`: 7,035 labels and metadata records.
 - `data/structure_manifest.csv`: sample identifiers and relative geometry paths.
 - `data/structures/C*/`: corresponding Gaussian `.gjf` geometries by cage size.
+- `data/LICENSE.md`: CC BY 4.0 terms for the dataset and split manifests.
 - `splits/random/`: fixed 8:1:1 splits for seeds 2024–2028.
 - `splits/group/group_split.csv`: fixed cage-size-disjoint group split for cross-size transfer.
 - `src/`: proposed model, features, validated loader, and preserved training core.
@@ -20,6 +21,7 @@ this package.
 - `configs/config.yaml`: main-model settings and seeds.
 - `results/README.md`: generated output layout; results are not committed.
 - `checksums/SHA256SUMS.txt`: packaged-file integrity checksums.
+- `LICENSE` and `THIRD_PARTY_NOTICES.md`: code license and upstream notices.
 
 ## Dataset and calculations
 
@@ -100,12 +102,16 @@ If you use this dataset or code, please cite the accompanying manuscript:
 Graph Learning*. Update this citation with the publication DOI when available.
 For questions, open a [GitHub Issue](https://github.com/lizelong9361-art/Fullerene-HOMO-LUMO-GNN/issues).
 
-## Publication status and licensing
+## Licensing and release status
 
-`LICENSE` records that the rights holder has **not selected a reuse license**;
-it is not a permission grant. Code and data may require different licenses.
-The rights holder should approve precise license(s) and third-party notices
-before a public release. No `v1.0.0` release or Zenodo DOI is claimed here;
-after rights, result mapping, and the snapshot are confirmed, tag that
-snapshot and archive its GitHub release with Zenodo. Cite the resulting
-version-specific DOI in the paper.
+Original project code is available under the [MIT License](LICENSE).
+The 7,035-row dataset, matched geometries, and predefined CSV split manifests
+are available under [CC BY 4.0](data/LICENSE.md); please credit the repository
+and accompanying manuscript and indicate modifications. Embedded third-party
+model code retains its original MIT copyright and permission notices; see
+[third-party notices](THIRD_PARTY_NOTICES.md). Dependency licenses remain with
+their respective packages.
+
+No `v1.0.0` release or Zenodo DOI is claimed here. Once the result mapping and
+repository snapshot are confirmed, tag that snapshot and archive its GitHub
+release with Zenodo. Cite the resulting version-specific DOI in the paper.
