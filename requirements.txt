@@ -1,0 +1,11 @@
+# Versions observed in the source development environment (Python 3.12).
+# Install a CPU/CUDA-compatible PyTorch wheel for your platform if needed.
+numpy==2.3.3
+pandas==2.3.3
+torch==2.8.0
+matplotlib==3.10.7
+networkx==3.5
+scipy==1.16.2
+scikit-learn==1.7.2
+tqdm==4.67.1
+PyYAML==6.0.3

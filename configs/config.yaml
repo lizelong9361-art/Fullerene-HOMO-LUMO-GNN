@@ -1,0 +1,14 @@
+# Main physics-guided model; values match the supplied gap2.py defaults.
+seeds: [2024, 2025, 2026, 2027, 2028]
+target_unit: eV
+source_gap_unit: hartree
+random_split: [0.8, 0.1, 0.1]
+group_train: C20-C56
+group_validation: [C58, C60]
+group_test: C70-C100
+preprocess_workers: 4
+batch_size: 32
+learning_rate: 0.0007
+max_epochs: 420
+patience: 70
+weight_decay: 0.00001

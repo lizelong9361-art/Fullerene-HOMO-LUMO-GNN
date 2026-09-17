@@ -1,0 +1,2 @@
+# Preserve exact data/code bytes so SHA256SUMS.txt remains valid after cloning.
+* -text

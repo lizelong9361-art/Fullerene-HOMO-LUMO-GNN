@@ -1,0 +1,30 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Model artifacts and experiment outputs
+*.pth
+*.pt
+*.ckpt
+runs/
+wandb/
+results/**
+!results/README.md
+
+# Gaussian outputs are not part of this Git package
+*.log
+*.chk
